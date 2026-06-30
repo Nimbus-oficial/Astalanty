@@ -30,3 +30,22 @@ Custom domains:
 - `www.astalanty.com`, redirected to `astalanty.com`
 
 DNS should point the apex domain to GitHub Pages and configure `www` as a CNAME to the repository Pages host.
+
+## DNS Records
+
+Configure the apex domain with GitHub Pages A records:
+
+```text
+astalanty.com    A      185.199.108.153
+astalanty.com    A      185.199.109.153
+astalanty.com    A      185.199.110.153
+astalanty.com    A      185.199.111.153
+```
+
+Configure the `www` subdomain as:
+
+```text
+www.astalanty.com    CNAME    Nimbus-oficial.github.io
+```
+
+In GitHub, open `Settings > Pages`, select `GitHub Actions` as the source, set the custom domain to `astalanty.com`, then enable HTTPS after DNS validation completes.
