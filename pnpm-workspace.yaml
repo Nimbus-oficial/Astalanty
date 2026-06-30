@@ -1,0 +1,10 @@
+packages:
+  - "apps/*"
+  - "services/*"
+  - "packages/*"
+allowBuilds:
+  keccak: false
+  sharp: false
+ignoredBuiltDependencies:
+  - keccak
+  - secp256k1

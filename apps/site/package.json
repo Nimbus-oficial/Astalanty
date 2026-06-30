@@ -1,0 +1,26 @@
+{
+  "name": "@astalanty/site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "tsc -p tsconfig.json --noEmit",
+    "lint": "echo \"No linter configured for @astalanty/site\"",
+    "check": "pnpm build && pnpm test",
+    "format": "echo \"No formatter configured for @astalanty/site\""
+  },
+  "dependencies": {
+    "next": "^15.5.7",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.2"
+  }
+}

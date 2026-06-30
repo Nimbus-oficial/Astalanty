@@ -1,0 +1,25 @@
+{
+  "name": "@astalanty/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploy-mvp.cjs",
+    "deploy:arbitrum-sepolia": "hardhat run scripts/deploy-mvp.cjs --network arbitrumSepolia",
+    "lint": "echo \"No Solidity linter configured for MVP\"",
+    "check": "pnpm build && pnpm lint && pnpm test",
+    "format": "echo \"No formatter configured for @astalanty/contracts\""
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.1.0",
+    "chai": "^6.2.2",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.17.0",
+    "hardhat": "^2.26.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0"
+  }
+}

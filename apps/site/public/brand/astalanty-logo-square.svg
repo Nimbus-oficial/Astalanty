@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Astalanty</title>
+  <desc id="desc">Astalanty square icon</desc>
+  <rect width="512" height="512" rx="96" fill="#0A2F24"/>
+  <path d="M256 88L406 424H341L311 354H202L172 424H108L256 88ZM224 300H288L256 222L224 300Z" fill="#FFFFFF"/>
+  <path d="M392 120C348 142 322 174 312 218C338 192 372 176 416 171C416 148 408 131 392 120Z" fill="#2ECC71"/>
+</svg>

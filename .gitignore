@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+.next/
+artifacts/
+cache/
+typechain-types/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Local/internal workspace
+.agents/
+Astalanty contexto Obsidian/
+docs/grant/
+docs/final-data-room/
+docs/final-deliverables/
+docs/presentation-kit/
+scripts/generate_final_*.py
+scripts/generate_institutional_*.py
+scripts/generate_premium_*.py
+
+# Generated deployment snapshots
+packages/contracts/deployments/hardhat-31337-*.json
+!packages/contracts/deployments/hardhat-31337-latest.json
+!packages/contracts/deployments/example.arbitrum-sepolia.json
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Astalanty</title>
+  <desc id="desc">Astalanty open graph image</desc>
+  <rect width="1200" height="630" fill="#F4F6F8"/>
+  <rect x="84" y="84" width="240" height="240" rx="42" fill="#0A2F24"/>
+  <path d="M204 126L274 276H242.75L229 244.75H177.75L164 276H134L204 126ZM187.75 219.75H219L204 183.5L187.75 219.75Z" fill="#FFFFFF"/>
+  <path d="M269 143.5C249 153.5 236.5 168.5 231.5 188.5C244 176 259 168.5 279 166C279 156 276.5 148.5 269 143.5Z" fill="#2ECC71"/>
+  <text x="374" y="214" fill="#0E2A47" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="850" letter-spacing="0">Astalanty</text>
+  <text x="380" y="278" fill="#66716D" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="2">TECHNICAL MVP FOR PAYMENT ABSTRACTION</text>
+  <rect x="84" y="402" width="1032" height="1" fill="#D8DEE5"/>
+  <text x="84" y="472" fill="#333333" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="650">Smart Account + Paymaster + Fee Manager + AUSD testnet settlement + TypeScript SDK.</text>
+  <text x="84" y="526" fill="#66716D" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="500">Open source, locally validated, and ready for public testnet evidence.</text>
+</svg>

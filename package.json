@@ -1,0 +1,16 @@
+{
+  "name": "astalanty",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Astalanty Layer 3 blockchain infrastructure monorepo.",
+  "packageManager": "pnpm@11.7.0",
+  "scripts": {
+    "check": "pnpm -r check",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "format": "pnpm -r format",
+    "docs:links": "powershell -ExecutionPolicy Bypass -File scripts/validate-doc-links.ps1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,47 @@
+{
+  "project": "Astalanty",
+  "phase": "MVP technical economic core",
+  "network": "arbitrumSepolia",
+  "chainId": "421614",
+  "deployedAt": "2026-06-28T00:00:00.000Z",
+  "deployer": "0x0000000000000000000000000000000000000000",
+  "treasury": "0x0000000000000000000000000000000000000000",
+  "entryPoint": "0x0000000000000000000000000000000000000000",
+  "recoveryGuardian": "0x0000000000000000000000000000000000000000",
+  "contracts": {
+    "MockUSDC": "0x0000000000000000000000000000000000000000",
+    "AUSDToken": "0x0000000000000000000000000000000000000000",
+    "AstalantyFeeManager": "0x0000000000000000000000000000000000000000",
+    "AstalantyPaymaster": "0x0000000000000000000000000000000000000000",
+    "AstalantySmartAccountFactory": "0x0000000000000000000000000000000000000000",
+    "AstalantySmartAccount": "0x0000000000000000000000000000000000000000"
+  },
+  "configuration": {
+    "usdcToAusdRate": "1000000000000000000",
+    "gasMarkupBps": "500",
+    "minAusdFee": "10000000000000000",
+    "maxAusdFee": "10000000000000000000",
+    "maxCostPerOperation": "0",
+    "mockUsdcMintAmount": "1000000000",
+    "smartAccountApproveAmount": "1000000000",
+    "demoVerificationGasLimit": "80000",
+    "demoCallGasLimit": "120000",
+    "demoPreVerificationGas": "25000",
+    "demoMaxFeePerGas": "1000000000"
+  },
+  "demoOperation": {
+    "userOpHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "operationId": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "quote": {
+      "gasLimit": "225000",
+      "gasFeeWei": "225000000000000",
+      "ausdFee": "10000000000000000",
+      "mockUsdcRequired": "10000",
+      "rate": "1000000000000000000"
+    },
+    "smartAccountMockUsdcBalance": "999990000",
+    "smartAccountPaymasterAllowance": "999990000",
+    "treasuryMockUsdcBalance": "10000",
+    "treasuryAusdBalance": "10000000000000000"
+  }
+}
