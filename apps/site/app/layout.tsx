@@ -5,16 +5,16 @@ export const metadata: Metadata = {
   title: "Astalanty | Technical MVP for Payment Abstraction",
   description:
     "Astalanty is an open source technical MVP for Smart Account payment abstraction, Paymaster settlement, AUSD testnet fees, and a TypeScript SDK.",
-  metadataBase: new URL("https://astalanty.com"),
+  metadataBase: new URL("https://nimbus-oficial.github.io"),
   icons: {
-    icon: "/brand/astalanty-logo-square.svg"
+    icon: "/Astalanty/brand/astalanty-logo-square.svg"
   },
   openGraph: {
     title: "Astalanty | Technical MVP for Payment Abstraction",
     description:
       "Open source MVP demonstrating Smart Accounts, Paymaster settlement, AUSD testnet fees, contracts, tests, SDK, and a demo app.",
     type: "website",
-    images: ["/brand/astalanty-logo-large.svg"]
+    images: ["/Astalanty/brand/astalanty-logo-large.svg"]
   }
 };
 

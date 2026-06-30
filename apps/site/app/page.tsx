@@ -51,6 +51,8 @@ const docs = [
   ["Contracts", "https://github.com/Nimbus-oficial/Astalanty/tree/main/packages/contracts"]
 ];
 
+const assetPath = (path: string) => `/Astalanty${path}`;
+
 export default function Home() {
   return (
     <>
@@ -74,7 +76,7 @@ function Header() {
   return (
     <header className="site-header">
       <a className="brand-link" href="#top" aria-label="Astalanty home">
-        <img src="/brand/astalanty-logo-horizontal.svg" alt="Astalanty" width="160" height="70" />
+        <img src={assetPath("/brand/astalanty-logo-horizontal.svg")} alt="Astalanty" width="160" height="70" />
       </a>
       <nav className="desktop-nav" aria-label="Primary navigation">
         <a href="#architecture">Architecture</a>
@@ -283,14 +285,14 @@ function Footer() {
   return (
     <footer className="site-footer">
       <div>
-        <img src="/brand/astalanty-logo-horizontal.svg" alt="Astalanty" width="160" height="70" />
+        <img src={assetPath("/brand/astalanty-logo-horizontal.svg")} alt="Astalanty" width="160" height="70" />
         <p>Open source MVP for Smart Account payment abstraction and developer tooling.</p>
       </div>
       <nav aria-label="Footer navigation">
         <a href="#architecture">Architecture</a>
         <a href="#docs">Documentation</a>
         <a href="https://github.com/Nimbus-oficial/Astalanty">GitHub</a>
-        <a href="mailto:contact@astalanty.com">Contact</a>
+        <a href="https://github.com/Nimbus-oficial/Astalanty/issues">Contact</a>
         <a href="https://github.com/Nimbus-oficial/Astalanty/blob/main/LICENSE">License</a>
       </nav>
     </footer>
